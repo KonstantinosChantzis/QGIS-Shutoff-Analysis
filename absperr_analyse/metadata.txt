@@ -1,0 +1,18 @@
+[general]
+name=Absperr-Analyse
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=Shows affected pipes/cables and house connections when valves or switches are closed | Zeigt betroffene Leitungen und Hausanschlüsse, wenn Schieber oder Schalter geschlossen werden
+version=1.0.0
+author=Konstantinos Chantzis
+email=costashantzis@gmail.com
+about=English: Network tracing for utility networks (water, gas, district heating, power). Select one or more valves/switches, choose the supply points and the plugin finds all line sections and house connections or buildings that are cut off. Valves with a "closed" status (e.g. ring separation points) are taken into account. Results as styled layers, table with zoom and export to GeoPackage, Excel or CSV. Pure Python breadth-first search, no extra libraries needed. | Deutsch: Netzverfolgung für Versorgungsnetze (Wasser, Gas, Fernwärme, Strom). Schieber/Schalter auswählen, Einspeisungen wählen und das Plugin findet alle Leitungsabschnitte und Hausanschlüsse bzw. Gebäude, die abgetrennt werden. Schieber mit Status „geschlossen“ (z. B. Ring-Trennstellen) werden berücksichtigt. Ergebnis als dargestellte Layer, Tabelle mit Zoom und Export nach GeoPackage, Excel oder CSV. Breitensuche in reinem Python, keine zusätzlichen Bibliotheken nötig.
+tracker=https://github.com/KonstantinosChantzis/QGIS-Shutoff-Analysis/issues
+repository=https://github.com/KonstantinosChantzis/QGIS-Shutoff-Analysis
+homepage=https://github.com/KonstantinosChantzis/QGIS-Shutoff-Analysis
+tags=network,utility,valve,shut-off,water,gas,tracing,netz,schieber,absperrung,versorgung
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=no
